@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex" />
+<style>
+  @page { size: A4; margin: 13mm 14mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: Helvetica, Arial, sans-serif; color: #1f2328; font-size: 10.5px; line-height: 1.42; margin: 0; }
+  a { color: inherit; text-decoration: none; }
+  .teal { color: #0f766e; }
+  h1 { font-size: 25px; font-weight: 700; margin: 0; letter-spacing: .2px; }
+  .subtitle { color: #0f766e; font-weight: 700; font-size: 13px; margin: 3px 0 7px; }
+  .contact { font-size: 9.6px; color: #4b5563; }
+  .contact span { margin-right: 16px; white-space: nowrap; }
+  .rule { border: 0; border-top: 2px solid #0f766e; margin: 8px 0 2px; }
+  h2 { color: #0f766e; font-size: 11px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase;
+       margin: 13px 0 6px; padding-bottom: 3px; border-bottom: 1px solid #d5dbd9; }
+  ul { margin: 2px 0 0; padding-left: 15px; }
+  li { margin: 0 0 3px; }
+  li::marker { color: #0f766e; }
+  .role { display: flex; justify-content: space-between; align-items: baseline; margin-top: 9px; }
+  .role h3 { font-size: 11.5px; font-weight: 700; margin: 0; }
+  .date { font-size: 9.6px; color: #4b5563; white-space: nowrap; }
+  .org { color: #0f766e; font-weight: 700; font-size: 10px; margin: 1px 0 3px; }
+  .proj { margin-top: 6px; }
+  .proj b { font-weight: 700; }
+  .proj p { margin: 1px 0 0; }
+  p { margin: 2px 0; }
+</style>
+</head>
+<body>
+  <h1>Pattabi Ram S</h1>
+  <div class="subtitle">Cloud &amp; DevOps Architect | SecOps &amp; DevOps Lead</div>
+  <div class="contact">
+    <span>pattabi.parthivasha@gmail.com</span><span>Bengaluru, India</span>
+  </div>
+  <div class="contact" style="margin-top:2px;">
+    <span>https://pattabirams.github.io</span><span>github.com/pattabirams</span><span>linkedin.com/in/pattabirams</span>
+  </div>
+  <hr class="rule" />
+
+  <h2>Professional Summary</h2>
+  <p>Cloud and DevOps architect with 14+ years building and securing production infrastructure across AWS, Azure and
+  on-premises environments. SecOps and DevOps Lead at DigiBoxx, leading platform engineering, security and a growing
+  applied-AI practice. Proven in designing scalable, highly available systems, building CI/CD and IaC at scale, running
+  cloud security programs, and shipping cost-efficient, reliable services. AWS Certified Solutions Architect Professional
+  and AWS Security Specialty.</p>
+
+  <h2>Core Skills</h2>
+  <ul>
+    <li>Cloud: AWS, Azure, GCP, VMware, EC2, S3, EKS, Lambda, VPC, IAM, CloudFront, Route 53</li>
+    <li>DevOps: Kubernetes, Docker, Terraform, Ansible, Jenkins, GitLab CI, GitHub Actions, Helm, ArgoCD, GitOps</li>
+    <li>SecOps: Cloud security, IAM governance, WAF, SIEM, vulnerability management, DevSecOps, image/secret scanning, hardening</li>
+    <li>Observability: Prometheus, Grafana, ELK, CloudWatch, Datadog, Alertmanager, incident response, SRE/AIOps practices</li>
+    <li>AI/ML: Hugging Face, Qwen, LLM fine-tuning and inference, model serving, RAG, GPU infrastructure</li>
+    <li>Platforms: Linux, networking, high availability, autoscaling, cost optimization, DR and backup</li>
+  </ul>
+
+  <h2>Professional Experience</h2>
+
+  <div class="role"><h3>SecOps &amp; DevOps Lead</h3><span class="date">Jan 2024 to Present</span></div>
+  <div class="org">DigiBoxx Technologies &amp; Digital India Pvt Ltd, Mumbai</div>
+  <ul>
+    <li>Lead cloud, DevOps and security engineering for DigiBoxx, India's homegrown cloud storage platform, owning architecture, reliability and the security posture of production services.</li>
+    <li>Architected and scaled Megh3 Cloud, an S3-compatible object storage platform, and built a high-performance S3-compatible storage application from scratch for enterprise and government workloads.</li>
+    <li>Built and run DigiBoxx's internal platform suite end to end &mdash; DigiCloud (private-cloud console), DigiCode (self-hosted Git with approval-gated CI/CD, a web IDE and secret scanning), DigiFlow (standalone CI/CD), DigiChat and DigiDesk &mdash; containerised and delivered through Jenkins and GitOps behind Cloudflare Zero-Trust.</li>
+    <li>Run platform SecOps: Prometheus/Alertmanager monitoring with push-agent ingestion for VPN-isolated hosts, VAPT remediation, Authentik SSO, image and dependency scanning, and DigiSRE &mdash; an AIOps bot for alert correlation and signed, whitelist-only auto-remediation.</li>
+    <li>Built DigiTasks, a workflow and task-management platform, and OpsCenter, an internal operations and monitoring console that centralizes infrastructure health, alerting and deployment visibility.</li>
+    <li>Stood up an applied-AI practice: deploying and fine-tuning open models (Hugging Face, Qwen) for inference, and building DigiSahayak, an AI assistant that helps users and support teams with product guidance.</li>
+    <li>Hardened the cloud security program across IAM, network segmentation, WAF, secrets management and vulnerability remediation, embedding DevSecOps gates into CI/CD pipelines.</li>
+    <li>Drove cost optimization, autoscaling and multi-AZ high availability, improving reliability and reducing cloud spend across the platform.</li>
+  </ul>
+
+  <div class="role"><h3>DevOps Lead</h3><span class="date">Nov 2022 to Nov 2023</span></div>
+  <div class="org">Lybl Healthcare, Noida</div>
+  <ul>
+    <li>Led DevOps for a healthcare platform, designing CI/CD, infrastructure-as-code and secure, compliant cloud environments.</li>
+    <li>Delivered the Toyota TSAM (South Africa) enterprise platform (2022 to 2023), building and operating its cloud infrastructure and deployment pipelines.</li>
+    <li>Automated provisioning with Terraform and Ansible and standardized Kubernetes-based deployments.</li>
+  </ul>
+
+  <div class="role"><h3>Solution Architect</h3><span class="date">Dec 2021 to Jun 2022</span></div>
+  <div class="org">Engro, Hyderabad</div>
+  <ul>
+    <li>Designed cloud reference architectures and migration strategies for enterprise workloads.</li>
+    <li>Defined security, networking and cost baselines for AWS deployments.</li>
+  </ul>
+
+  <div class="role"><h3>Lead Architect, AWS &amp; DevOps</h3><span class="date">Aug 2021 to Nov 2021</span></div>
+  <div class="org">Neuralmetrics, Chennai</div>
+  <ul>
+    <li>Architected AWS infrastructure and DevOps tooling for a data and analytics product.</li>
+    <li>Implemented IaC, CI/CD and observability for rapid, reliable releases.</li>
+  </ul>
+
+  <div class="role"><h3>Tech Lead</h3><span class="date">Dec 2020 to Jun 2021</span></div>
+  <div class="org">Adcuratio, Bengaluru</div>
+  <ul>
+    <li>Led the engineering platform for an addressable-advertising product, owning cloud infrastructure and delivery.</li>
+    <li>Built scalable pipelines and automated deployment workflows.</li>
+  </ul>
+
+  <div class="role"><h3>DevOps Lead</h3><span class="date">Sep 2018 to Sep 2020</span></div>
+  <div class="org">Goomo, Bengaluru</div>
+  <ul>
+    <li>Operated and scaled a travel platform on AWS with 200+ EC2 instances across production and staging.</li>
+    <li>Built the Lifafa gift-cards platform (2018 to 2020) and its supporting cloud infrastructure and CI/CD.</li>
+    <li>Introduced autoscaling, monitoring and cost controls, improving uptime and reducing spend.</li>
+  </ul>
+
+  <div class="role"><h3>IT Server Administrator</h3><span class="date">May 2015 to Dec 2017</span></div>
+  <div class="org">Travel Centric / HotelHub</div>
+  <ul>
+    <li>Administered servers, networking and virtualization for a travel-technology business.</li>
+    <li>Maintained high availability, backups and disaster recovery for production systems.</li>
+  </ul>
+
+  <div class="role"><h3>System Administrator</h3><span class="date">Feb 2011 to May 2015</span></div>
+  <div class="org">Logix / Izmocars</div>
+  <ul>
+    <li>Managed Linux and Windows server infrastructure, networking and user support.</li>
+    <li>Implemented monitoring, patching and backup processes.</li>
+  </ul>
+
+  <h2>Key Projects</h2>
+  <div class="proj"><b>Megh3 Cloud &amp; S3-Compatible Storage (DigiBoxx)</b><p>Scalable, S3-compatible object storage platform and a from-scratch storage application for enterprise and government workloads.</p></div>
+  <div class="proj"><b>DigiCloud, DigiCode &amp; DigiFlow (DigiBoxx)</b><p>Private-cloud console, a self-hosted Git platform with approval-gated CI/CD and a Security Center, and a standalone CI/CD product that builds any repo in Docker.</p></div>
+  <div class="proj"><b>DigiSRE &amp; OpsCenter (DigiBoxx)</b><p>AIOps bot for multi-source alert correlation and auto-remediation, plus an internal operations console for infrastructure health, alerting and deployments.</p></div>
+  <div class="proj"><b>DigiSahayak AI Assistant (DigiBoxx)</b><p>AI assistant built on open models (Hugging Face, Qwen) for product guidance and support automation.</p></div>
+  <div class="proj"><b>Toyota TSAM, South Africa</b><p>Enterprise cloud platform delivery and operations (2022 to 2023).</p></div>
+  <div class="proj"><b>Lifafa Gift Cards</b><p>Gift-cards platform with its cloud infrastructure and CI/CD (2018 to 2020).</p></div>
+
+  <h2>Certifications</h2>
+  <ul>
+    <li>AWS Certified Solutions Architect - Professional</li>
+    <li>AWS Certified Security - Specialty</li>
+    <li>VMware Certified Associate - Data Center Virtualization (VCA-DCV)</li>
+    <li>Microsoft Certified Solutions Associate (MCSA)</li>
+  </ul>
+
+  <h2>Education</h2>
+  <p><b>Bachelor of Computer Applications (BCA)</b> - Mangalore Institute of Management &amp; Engineering</p>
+  <p>Pre-University (PUC) - Jnanodaya Pre-University College, Bengaluru</p>
+</body>
+</html>
